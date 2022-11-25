@@ -4,4 +4,17 @@ body{
 }
 #first-card{
     border-radius: 25px;
+    border-style: solid;
+}
+#background-Profile{
+    border-radius: 25px;
+    width: 1280cm;
+    display: flex;
+    z-index: 1;
+}
+.mat-card{
+    border-radius: 32px;
+    border-color: blue;
+    margin: 10px, 10px;
+    padding: 20px;
 }
