@@ -2,36 +2,43 @@
  <head>
     <title>Portfolio Web Nehuen Chinigioli</title>
     <link rel="stylesheet" href="dist\bootstrap\css\bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
  </head>
  <body>
-   <div class="container.fluid" id="first-card">
-     <div id="Background-Profile"><img class="img-fluid" src="Background.jpg" alt="Background Image" style="width: 1280px"></div>
-     <div id="info">
-         <img src="profile-img.png" alt="profile Image">
+  <div class="container">
+   <div class="container"  id="rounded-corners">
+     <div ><img id="Background-Profile" src="Background.jpg" alt="Background Image" style="width: 1280px"></div>
+     <div class="avatar">
+         <img src="profile-img.png" id="avatar-img" alt="profile Image">
      </div>
-     <div id="info-data" style="padding: 16px" >
-        <div>
-          <h1>Nehuen Chinigioli</h1>
-          <div id="info-specialized">Desarrollador Web Full Stack</div>
-          <div id="info-contact">
+    
+     <div id="info-data" style="padding: 16px" class="row">     
+          <div class="col-sm-4">
+           <h1>Nehuen Chinigioli</h1>
+           <div id="info-specialized">Desarrollador Web Full Stack</div>
+           <div id="info-contact">
             <span>Mendoza (Argentina)</span>
             <span ><a href="#">Informacion de Contacto</a></span>
             
-          </div>
-          <div>
+           </div>
+           <div>
             <button type="button" class="btn btn-primary">Tengo Interes en</button>
-          </div>
-          <div>
+           </div>
+           
+        </div>
+        <div class="col-sm-4"></div>
+          <div class="col-sm-4">
             <ul id="info-details">
               <li><a href="#">
                 <h2>Argentina Programa</h2>
               </a></li>
             </ul>
           </div>
-        </div>
-     </div>
+      </div>
+     
+    </div>
    </div>
 
  </body>
