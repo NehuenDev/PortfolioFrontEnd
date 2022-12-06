@@ -27,5 +27,12 @@ body{
     background-color: #d3d3d3;
 }
 #margins{
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
+}
+.div-vertical-separator{
+    margin: 0 0 10px 0;
+}
+.name {
+    font-size: 1.7em;
+    font-weight: 700;
 }
