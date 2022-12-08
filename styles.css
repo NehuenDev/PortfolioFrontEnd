@@ -21,7 +21,7 @@ body{
 }
 #rounded-corners{
     border-radius: 25px;
-  border: 2px solid #d3d3d3;
+  border: 1px solid #d3d3d3;
 }
 .background-div{
     background-color: #d3d3d3;
@@ -35,4 +35,29 @@ body{
 .name {
     font-size: 1.7em;
     font-weight: 700;
+}
+
+/* progress bar */
+.progress-bar {
+    /* Colors */
+    background-color: #e2e2e2;
+
+    /* Rounded border */
+    border-radius: 100px;
+    padding: 5px;
+    
+}
+
+.progress-bar__progress {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Colors */
+    background-color: #4671ff;
+    color: #fff;
+
+    /* Rounded border */
+    border-radius: 100px;
 }
